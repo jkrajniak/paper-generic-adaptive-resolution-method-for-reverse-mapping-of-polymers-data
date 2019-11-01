@@ -1,0 +1,60 @@
+# This file was created Sun Jul 31 17:24:21 2016
+# Created by:
+# GROMACS:      gmx angle, VERSION 5.0.4
+# Executable:   /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/bin/gmx_mpi
+# Library dir:  /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/share/gromacs/top
+# Command line:
+#   g_angle_mpi -f traj_comp.xtc -od angle_1.xvg
+# g_angle_mpi is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Angle Distribution: Theta=112.7_488.27"
+@    xaxis  label "Degrees"
+@    yaxis  label ""
+@TYPE xy
+@    subtitle "average angle: 113.539\So\N"
+        93    0.000000
+        94    0.000000
+        95    0.000002
+        96    0.000005
+        97    0.000014
+        98    0.000044
+        99    0.000128
+       100    0.000320
+       101    0.000757
+       102    0.001654
+       103    0.003317
+       104    0.006275
+       105    0.011009
+       106    0.018062
+       107    0.027665
+       108    0.039723
+       109    0.053817
+       110    0.068199
+       111    0.081074
+       112    0.091063
+       113    0.096259
+       114    0.095970
+       115    0.090162
+       116    0.080005
+       117    0.067068
+       118    0.053192
+       119    0.039777
+       120    0.028227
+       121    0.018884
+       122    0.011938
+       123    0.007134
+       124    0.004048
+       125    0.002175
+       126    0.001109
+       127    0.000525
+       128    0.000233
+       129    0.000100
+       130    0.000041
+       131    0.000016
+       132    0.000006
+       133    0.000002
+       134    0.000001
+       135    0.000000
+       136    0.000000

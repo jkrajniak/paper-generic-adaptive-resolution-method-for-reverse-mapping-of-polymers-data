@@ -1,0 +1,620 @@
+<?xml version="1.0" ?>
+<cg_molecule>
+  <name>PE</name>
+  <ident>PE</ident>
+  <source_file>pe_single.gro</source_file>
+  <topology>
+    <cg_beads>
+<cg_bead>
+        <name>A1</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C1</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A2</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C2</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A3</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C3</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A4</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C4</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A5</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C5</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A6</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C6</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A7</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C7</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A8</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C8</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A9</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C9</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A10</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C10</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A11</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C11</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A12</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C12</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A13</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C13</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A14</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C14</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A15</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C15</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A16</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C16</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A17</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C17</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A18</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C18</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A19</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C19</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A20</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C20</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A21</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C21</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A22</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C22</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A23</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C23</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A24</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C24</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A25</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C25</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A26</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C26</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A27</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C27</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A28</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C28</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A29</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C29</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A30</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C30</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A31</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C31</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A32</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C32</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A33</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C33</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A34</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C34</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A35</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C35</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A36</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C36</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A37</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C37</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A38</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C38</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A39</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C39</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A40</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C40</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A41</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C41</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A42</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C42</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A43</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C43</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A44</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C44</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A45</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C45</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A46</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C46</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A47</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C47</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A48</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C48</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A49</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C49</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A50</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C50</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A51</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C51</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A52</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C52</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A53</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C53</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A54</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C54</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A55</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C55</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A56</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C56</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A57</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C57</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A58</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C58</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A59</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C59</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A60</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C60</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A61</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C61</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A62</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C62</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A63</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C63</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A64</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C64</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A65</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C65</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A66</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C66</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A67</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C67</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A68</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C68</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A69</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C69</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A70</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C70</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A71</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C71</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A72</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C72</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A73</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C73</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A74</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C74</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A75</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C75</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A76</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C76</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A77</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C77</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A78</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C78</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A79</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C79</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A80</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C80</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A81</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C81</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A82</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C82</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A83</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C83</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A84</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C84</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A85</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C85</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A86</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C86</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A87</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C87</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A88</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C88</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A89</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C89</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A90</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C90</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A91</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C91</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A92</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C92</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A93</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C93</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A94</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C94</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A95</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C95</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A96</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C96</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A97</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C97</beads>
+      </cg_bead>
+<cg_bead>
+        <name>A98</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C98</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>A99</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C99</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>A100</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:C100</beads>
+      </cg_bead>
+    </cg_beads>
+  </topology>
+  <maps>
+    <map>
+      <name>A</name>
+      <weights>15.035</weights>
+    </map>
+    <map>
+      <name>B</name>
+      <weights>14.027 14.027</weights>
+    </map>
+  </maps>
+</cg_molecule>

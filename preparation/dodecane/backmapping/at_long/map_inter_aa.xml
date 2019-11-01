@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<cg_molecule>
+  <name>DOD</name>
+  <ident>DOD</ident>
+  <source_file>pe_single.gro</source_file>
+  <topology>
+    <cg_beads>
+      <cg_bead>
+        <name>B1</name>
+        <type>B</type>
+        <mapping>A</mapping>
+        <beads>1:DOD:C1</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B2</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C2</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B3</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C3</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B4</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C4</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B5</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C5</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B6</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C6</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B7</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C7</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B8</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C8</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B9</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C9</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B10</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C10</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B11</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:DOD:C11</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B12</name>
+        <type>B</type>
+        <mapping>A</mapping>
+        <beads>1:DOD:C12</beads>
+      </cg_bead>
+    </cg_beads>
+    <cg_bonded>
+      <dihedral>
+        <name>dihedral</name>
+        <beads>
+        B1 B2 B3 B4
+        B2 B3 B4 B5
+        B3 B4 B5 B6
+        B4 B5 B6 B7
+        B5 B6 B7 B8
+        B6 B7 B8 B9
+        B7 B8 B9 B10
+        B8 B9 B10 B11
+        B9 B10 B11 B12
+        </beads>
+      </dihedral>
+      <angle>
+      <name>angle</name>
+      <beads>
+      B1 B2 B3
+      B2 B3 B4
+      B3 B4 B5
+      B4 B5 B6
+      B5 B6 B7
+      B6 B7 B8
+      B7 B8 B9
+      B8 B9 B10
+      B9 B10 B11
+      B10 B11 B12
+      </beads>
+      </angle>
+      <bond>
+        <name>bond</name>
+        <beads>
+        B1 B2
+        B2 B3
+        B3 B4
+        B4 B5
+        B5 B6
+        B6 B7
+        B7 B8
+        B8 B9
+        B9 B10
+        B10 B11
+        B11 B12
+        </beads>
+      </bond>
+    </cg_bonded>
+  </topology>
+  <maps>
+    <map>
+       <name>A</name>
+       <weights>15.035</weights>
+    </map>
+    <map>
+      <name>B</name>
+      <weights>14.027</weights>
+    </map>
+  </maps>
+</cg_molecule>

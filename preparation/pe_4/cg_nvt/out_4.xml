@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<cg_molecule>
+  <name>PE</name>
+  <ident>PE</ident>
+  <topology>
+    <cg_beads>
+      <cg_bead>
+        <name>A1</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:A1</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B1</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B1</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B2</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B2</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B3</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B3</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B4</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B4</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B5</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B5</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B6</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B6</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B7</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B7</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B8</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B8</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B9</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B9</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B10</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B10</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B11</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B11</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B12</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B12</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B13</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B13</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B14</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B14</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B15</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B15</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B16</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B16</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B17</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B17</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B18</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B18</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B19</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B19</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B20</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B20</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B21</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B21</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B22</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B22</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>B23</name>
+        <type>B</type>
+        <mapping>B</mapping>
+        <beads>1:PE:B23</beads>
+      </cg_bead>
+      <cg_bead>
+        <name>A2</name>
+        <type>A</type>
+        <mapping>A</mapping>
+        <beads>1:PE:A2</beads>
+      </cg_bead>
+    </cg_beads>
+    <cg_bonded>
+      <dihedral>
+        <name>dihedral</name>
+        <beads>A1 B1 B2 B3
+B1 B2 B3 B4
+B2 B3 B4 B5
+B3 B4 B5 B6
+B4 B5 B6 B7
+B5 B6 B7 B8
+B6 B7 B8 B9
+B7 B8 B9 B10
+B8 B9 B10 B11
+B9 B10 B11 B12
+B10 B11 B12 B13
+B11 B12 B13 B14
+B12 B13 B14 B15
+B13 B14 B15 B16
+B14 B15 B16 B17
+B15 B16 B17 B18
+B16 B17 B18 B19
+B17 B18 B19 B20
+B18 B19 B20 B21
+B19 B20 B21 B22
+B20 B21 B22 B23
+B21 B22 B23 A2</beads>
+      </dihedral>
+      <angle>
+        <name>angle</name>
+        <beads>
+A1 B1 B2
+B1 B2 B3
+B2 B3 B4
+B3 B4 B5
+B4 B5 B6
+B5 B6 B7
+B6 B7 B8
+B7 B8 B9
+B8 B9 B10
+B9 B10 B11
+B10 B11 B12
+B11 B12 B13
+B12 B13 B14
+B13 B14 B15
+B14 B15 B16
+B15 B16 B17
+B16 B17 B18
+B17 B18 B19
+B18 B19 B20
+B19 B20 B21
+B20 B21 B22
+B21 B22 B23
+B22 B23 A2
+</beads>
+      </angle>
+      <bond>
+        <name>bond</name>
+        <beads>A1 B1
+B1 B2
+B2 B3
+B3 B4
+B4 B5
+B5 B6
+B6 B7
+B7 B8
+B8 B9
+B9 B10
+B10 B11
+B11 B12
+B12 B13
+B13 B14
+B14 B15
+B15 B16
+B16 B17
+B17 B18
+B18 B19
+B19 B20
+B20 B21
+B21 B22
+B22 B23
+B23 A2</beads>
+      </bond>
+      <bond>
+      <name>ee</name>
+      <beads>A1 A2</beads>
+      </bond>
+    </cg_bonded>
+  </topology>
+  <maps>
+    <map>
+      <name>A</name>
+      <weights>57.116</weights>
+    </map>
+    <map>
+      <name>B</name>
+      <weights>56.108</weights>
+    </map>
+  </maps>
+</cg_molecule>

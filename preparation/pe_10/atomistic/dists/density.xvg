@@ -1,0 +1,72 @@
+# This file was created Sun Jul 31 16:47:21 2016
+# Created by:
+# GROMACS:      gmx density, VERSION 5.0.4
+# Executable:   /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/bin/gmx_mpi
+# Library dir:  /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/share/gromacs/top
+# Command line:
+#   g_density_mpi -f traj_comp.xtc
+# g_density_mpi is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PE"
+    0.062004          735.618
+    0.186012          731.089
+     0.31002          730.757
+    0.434028          729.522
+    0.558036           732.36
+    0.682044          733.068
+    0.806052          733.085
+     0.93006          731.934
+     1.05407          728.321
+     1.17808          730.327
+     1.30208          730.819
+     1.42609          727.795
+      1.5501           726.03
+     1.67411          730.392
+     1.79812           734.24
+     1.92212          732.601
+     2.04613           731.04
+     2.17014          730.604
+     2.29415          738.773
+     2.41816          737.675
+     2.54216          732.372
+     2.66617          735.989
+     2.79018           741.44
+     2.91419          735.513
+      3.0382          732.527
+      3.1622          738.227
+     3.28621          737.391
+     3.41022            733.3
+     3.53423          732.442
+     3.65824          735.192
+     3.78224           737.57
+     3.90625          733.665
+     4.03026          737.152
+     4.15427          739.499
+     4.27828          735.211
+     4.40228          733.051
+     4.52629          737.198
+      4.6503          736.249
+     4.77431          730.983
+     4.89832          733.169
+     5.02232          737.475
+     5.14633          737.879
+     5.27034          732.507
+     5.39435          735.981
+     5.51836          736.192
+     5.64236          735.741
+     5.76637          733.834
+     5.89038          734.697
+     6.01439          734.199
+      6.1384          732.576

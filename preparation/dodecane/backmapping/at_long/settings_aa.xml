@@ -1,0 +1,21 @@
+<cg>
+  <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <name>all-all</name>
+    <type1>B</type1>
+    <type2>B</type2>
+    <min>0.0</min>
+    <max>1.5</max>
+    <step>0.01</step>
+    <inverse>
+      <target>CH3-CH3.dist.tgt</target>
+      <min>0.0</min>
+      <max>1.5</max>
+      <step>0.02</step>
+    </inverse>
+  </non-bonded>
+  
+  <inverse>
+    <kBT>3.51703773</kBT>
+  </inverse>
+</cg>

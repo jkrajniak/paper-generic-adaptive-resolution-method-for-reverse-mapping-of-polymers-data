@@ -1,0 +1,33 @@
+#!/bin/bash -l
+#PBS -l walltime=72:00:00
+#PBS -o Output.job
+#PBS -j oe
+#PBS -l nodes=1:ppn=20
+#PBS -M jakub.krajniak@cs.kuleuven.be
+#PBS -A lp_polymer_goa_project
+
+module purge
+
+cd $PBS_O_WORKDIR
+
+module load espressopp/adress_new
+module load bakery-github
+module load pyh5md
+module load h5py/intel-gpfs
+# Set up OpenMPI environment
+n_proc=$(cat $PBS_NODEFILE | wc -l)
+n_node=$(cat $PBS_NODEFILE | uniq | wc -l)
+
+rng="`shuf -i 12345-99999 -n1`${RNG2}"
+
+OUTPUT_PREFIX=sim0_${rng}
+LOG="${OUTPUT_PREFIX}.log"
+
+date > ${LOG}
+nohup mpirun -np 8 start_simulation.py @params --output_prefix ${OUTPUT_PREFIX}_a &>> ${LOG}_a &
+nohup mpirun -np 8 start_simulation.py @params --output_prefix ${OUTPUT_PREFIX}_b &>> ${LOG}_b &
+date >> ${OUTPUT_PREFIX}.log
+
+for p in `jobs -p`; do
+  wait $p;
+done

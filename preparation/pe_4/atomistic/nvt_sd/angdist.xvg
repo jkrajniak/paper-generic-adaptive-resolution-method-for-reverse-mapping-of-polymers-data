@@ -1,0 +1,71 @@
+# This file was created Fri Sep 18 10:49:38 2015
+# Created by:
+# GROMACS:      gmx angle, VERSION 5.0.4
+# Executable:   /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/bin/gmx_mpi
+# Library dir:  /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/share/gromacs/top
+# Command line:
+#   gmx_mpi angle -f traj_comp.xtc
+# gmx_mpi is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Angle Distribution: Theta=111.0_520.00"
+@    xaxis  label "Degrees"
+@    yaxis  label ""
+@TYPE xy
+@    subtitle "average angle: 113.67\So\N"
+        86    0.000000
+        87    0.000000
+        88    0.000000
+        89    0.000000
+        90    0.000001
+        91    0.000001
+        92    0.000003
+        93    0.000008
+        94    0.000018
+        95    0.000044
+        96    0.000095
+        97    0.000205
+        98    0.000414
+        99    0.000796
+       100    0.001473
+       101    0.002586
+       102    0.004413
+       103    0.007094
+       104    0.010972
+       105    0.016260
+       106    0.023081
+       107    0.031418
+       108    0.041001
+       109    0.051330
+       110    0.061508
+       111    0.070655
+       112    0.077906
+       113    0.082273
+       114    0.083237
+       115    0.080489
+       116    0.074646
+       117    0.066168
+       118    0.056038
+       119    0.045427
+       120    0.035120
+       121    0.025938
+       122    0.018281
+       123    0.012348
+       124    0.007904
+       125    0.004830
+       126    0.002839
+       127    0.001561
+       128    0.000828
+       129    0.000427
+       130    0.000202
+       131    0.000093
+       132    0.000041
+       133    0.000017
+       134    0.000006
+       135    0.000003
+       136    0.000001
+       137    0.000000
+       138    0.000000
+       139    0.000000
+       140    0.000000

@@ -1,0 +1,9 @@
+tab set T 423
+tab set scale bond
+tab set smooth_pot 1
+tab set min 0.2
+tab set max 0.3
+tab set auto 0
+tab set n 1001
+tab bond.pot *:bond:*
+q

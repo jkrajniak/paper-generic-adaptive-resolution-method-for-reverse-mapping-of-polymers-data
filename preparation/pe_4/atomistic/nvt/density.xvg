@@ -1,0 +1,72 @@
+# This file was created Mon Sep 21 13:44:03 2015
+# Created by:
+# GROMACS:      gmx density, VERSION 5.0.4
+# Executable:   /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/bin/gmx_mpi
+# Library dir:  /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/share/gromacs/top
+# Command line:
+#   g_density_mpi -f traj_comp.xtc
+# g_density_mpi is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PE"
+   0.0600939          809.895
+    0.180282          805.839
+    0.300469          806.076
+    0.420657          806.987
+    0.540845          803.783
+    0.661033          811.397
+    0.781221          804.487
+    0.901408          805.343
+      1.0216          805.821
+     1.14178          806.888
+     1.26197          814.682
+     1.38216          809.037
+     1.50235          802.843
+     1.62254          805.221
+     1.74272          808.203
+     1.86291          811.376
+      1.9831          802.926
+     2.10329          803.541
+     2.22347          804.983
+     2.34366          805.916
+     2.46385          804.445
+     2.58404          810.033
+     2.70423          805.596
+     2.82441          803.904
+      2.9446          804.713
+     3.06479          805.408
+     3.18498          809.969
+     3.30516          805.037
+     3.42535          806.053
+     3.54554          806.384
+     3.66573          804.677
+     3.78592           812.09
+      3.9061          805.715
+     4.02629          802.507
+     4.14648          803.827
+     4.26667          806.015
+     4.38685          805.825
+     4.50704          811.633
+     4.62723          803.701
+     4.74742          806.025
+     4.86761          803.346
+     4.98779          803.612
+     5.10798          811.601
+     5.22817          804.438
+     5.34836          803.272
+     5.46854          805.248
+     5.58873          804.221
+     5.70892          808.378
+     5.82911          804.644
+      5.9493          805.455

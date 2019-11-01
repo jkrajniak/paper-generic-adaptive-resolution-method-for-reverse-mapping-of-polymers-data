@@ -1,0 +1,27 @@
+#!/bin/bash -l
+#PBS -l mem=32gb
+#PBS -l walltime=24:00:00
+#PBS -o Output.job
+#PBS -j oe
+#PBS -l nodes=1:ppn=20
+#PBS -M jakub.krajniak@cs.kuleuven.be
+#PBS -A lp_polymer_goa_project
+
+module purge
+
+cd $PBS_O_WORKDIR
+
+module load espressopp/adress-intel-devel
+module load bakery
+module load pyh5md
+module load h5py/intel-gpfs
+# Set up OpenMPI environment
+n_proc=$(cat $PBS_NODEFILE | wc -l)
+n_node=$(cat $PBS_NODEFILE | uniq | wc -l)
+
+OUTPUT_PREFIX=sim0
+RES_STEP="`cat RES`"
+
+date > ${OUTPUT_PREFIX}.log
+start_backmapping.py @params --alpha ${RES_STEP} --output_prefix $OUTPUT_PREFIX &>> ${OUTPUT_PREFIX}.log
+date >> ${OUTPUT_PREFIX}.log

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+input=single_mf.com
+workdir=$VSC_SCRATCH_NODE/$USER
+indir=`pwd`
+output=$indir/${input}.log
+error=$indir/${input}.err
+
+#
+# Making a input-file for submitting
+#
+
+cat <<EOJ >$input.cmd
+
+#!/bin/bash
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=24:00:00
+#PBS -N $input
+#PBS -j oe
+#PBS -o $input.stdout
+#PBS -q qdef
+
+
+export g09root=/data/leuven/301/vsc30101/g09A2
+. \$g09root/bsd/g09.profile
+
+if [ ! -d $workdir ]
+then
+    mkdir -p $workdir
+fi
+
+cd $workdir
+cp $indir/$input .
+g09 < $input > $output 2> $error
+
+rm -f $input
+
+exit 0
+
+EOJ
+
+qsub -A lp_polymer_goa_project $input.cmd
+rm -f $input.cmd
+
+exit 0
+

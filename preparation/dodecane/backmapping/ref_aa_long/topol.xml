@@ -1,0 +1,22 @@
+<topology base="conf.gro">
+  <h5md_particle_group name="atoms" />
+  <molecules>
+    <clear/>
+    <define name="DOD" first="1" nbeads="12" nmols="500" />
+  </molecules>
+  <!--<box xx="6.1" yy="3.1" zz="3.1" />-->
+  <beadtypes>
+   <mass name="C1" value="15.035" />
+   <mass name="C2" value="14.027" />
+   <mass name="C3" value="14.027" />
+   <mass name="C4" value="14.027" />
+   <mass name="C5" value="14.027" />
+   <mass name="C6" value="14.027" />
+   <mass name="C7" value="14.027" />
+   <mass name="C8" value="14.027" />
+   <mass name="C9" value="14.027" />
+   <mass name="C10" value="14.027" />
+   <mass name="C11" value="14.027" />
+   <mass name="C12" value="15.035" />
+  </beadtypes>
+</topology>

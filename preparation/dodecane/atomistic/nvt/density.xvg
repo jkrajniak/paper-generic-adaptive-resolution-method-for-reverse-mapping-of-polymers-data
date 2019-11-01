@@ -1,0 +1,72 @@
+# This file was created Thu Jun 18 08:29:40 2015
+# Created by:
+# GROMACS:      gmx density, VERSION 5.0.4
+# Executable:   /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/bin/gmx_mpi
+# Library dir:  /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/share/gromacs/top
+# Command line:
+#   g_density_mpi -f traj_comp.xtc -e 100
+# g_density_mpi is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "BUT"
+   0.0575376          742.702
+    0.172613          734.404
+    0.287688          739.761
+    0.402763          738.803
+    0.517838           741.69
+    0.632914           731.88
+    0.747989          728.124
+    0.863064          750.261
+    0.978139          757.543
+     1.09321          738.067
+     1.20829          728.368
+     1.32336          757.398
+     1.43844          778.254
+     1.55352          761.062
+     1.66859          732.376
+     1.78367          718.276
+     1.89874          745.544
+     2.01382          748.874
+     2.12889          734.404
+     2.24397          744.301
+     2.35904          757.675
+     2.47412          744.135
+     2.58919          735.059
+     2.70427          751.626
+     2.81934          741.902
+     2.93442          723.595
+     3.04949          756.298
+     3.16457          753.448
+     3.27964          736.621
+     3.39472          736.895
+     3.50979          758.871
+     3.62487          752.568
+     3.73994          733.121
+     3.85502          721.412
+     3.97009          731.848
+     4.08517          738.808
+     4.20024          749.128
+     4.31532          743.627
+      4.4304          750.276
+     4.54547          743.287
+     4.66055          737.457
+     4.77562            739.2
+      4.8907          735.074
+     5.00577          727.845
+     5.12085          738.132
+     5.23592          746.841
+       5.351          751.923
+     5.46607          745.163
+     5.58115          748.086
+     5.69622          741.659

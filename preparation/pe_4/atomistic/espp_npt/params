@@ -1,0 +1,12 @@
+conf=conf.gro
+topology=topol.top 
+temperature=423.0 
+thermostat_gamma=5.0 
+run=10000000
+lj_cutoff=1.2 
+skin=0.1 
+cg_cutoff=1.2
+pressure=1.0
+barostat=br
+trj_collect=5000
+energy_collect=5000

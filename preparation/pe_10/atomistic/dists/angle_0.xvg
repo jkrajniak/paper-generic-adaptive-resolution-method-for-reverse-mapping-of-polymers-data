@@ -1,0 +1,76 @@
+# This file was created Sun Jul 31 17:28:25 2016
+# Created by:
+# GROMACS:      gmx angle, VERSION 5.0.4
+# Executable:   /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/bin/gmx_mpi
+# Library dir:  /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/share/gromacs/top
+# Command line:
+#   g_angle_mpi -od angle_0.xvg -f traj_comp.xtc
+# g_angle_mpi is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "Angle Distribution: Theta=110.7_313.80"
+@    xaxis  label "Degrees"
+@    yaxis  label ""
+@TYPE xy
+@    subtitle "average angle: 109.203\So\N"
+        80    0.000000
+        81    0.000000
+        82    0.000000
+        83    0.000000
+        84    0.000001
+        85    0.000002
+        86    0.000004
+        87    0.000010
+        88    0.000021
+        89    0.000047
+        90    0.000092
+        91    0.000186
+        92    0.000357
+        93    0.000651
+        94    0.001148
+        95    0.001949
+        96    0.003220
+        97    0.005091
+        98    0.007758
+        99    0.011445
+       100    0.016269
+       101    0.022311
+       102    0.029497
+       103    0.037651
+       104    0.046393
+       105    0.055023
+       106    0.063034
+       107    0.069548
+       108    0.074017
+       109    0.076151
+       110    0.075343
+       111    0.072030
+       112    0.066274
+       113    0.058775
+       114    0.050300
+       115    0.041429
+       116    0.032908
+       117    0.025213
+       118    0.018603
+       119    0.013192
+       120    0.009027
+       121    0.005955
+       122    0.003772
+       123    0.002307
+       124    0.001365
+       125    0.000770
+       126    0.000419
+       127    0.000225
+       128    0.000113
+       129    0.000056
+       130    0.000025
+       131    0.000012
+       132    0.000005
+       133    0.000002
+       134    0.000001
+       135    0.000000
+       136    0.000000
+       137    0.000000
+       138    0.000000
+       139    0.000000

@@ -1,0 +1,61 @@
+# This file was created Sun Jul 31 17:28:34 2016
+# Created by:
+# GROMACS:      gmx angle, VERSION 5.0.4
+# Executable:   /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/bin/gmx_mpi
+# Library dir:  /apps/leuven/thinking/2014a/software/GROMACS/5.0.4-intel-2014a-hybrid/share/gromacs/top
+# Command line:
+#   g_angle_mpi -od angle_1.xvg -f traj_comp.xtc
+# g_angle_mpi is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "Angle Distribution: Theta=112.7_488.27"
+@    xaxis  label "Degrees"
+@    yaxis  label ""
+@TYPE xy
+@    subtitle "average angle: 113.526\So\N"
+        92    0.000000
+        93    0.000000
+        94    0.000000
+        95    0.000001
+        96    0.000004
+        97    0.000015
+        98    0.000045
+        99    0.000127
+       100    0.000320
+       101    0.000755
+       102    0.001651
+       103    0.003343
+       104    0.006272
+       105    0.011047
+       106    0.018153
+       107    0.027849
+       108    0.039991
+       109    0.053854
+       110    0.068356
+       111    0.081395
+       112    0.091164
+       113    0.096312
+       114    0.096037
+       115    0.090202
+       116    0.079852
+       117    0.066892
+       118    0.052885
+       119    0.039571
+       120    0.028018
+       121    0.018718
+       122    0.011892
+       123    0.007112
+       124    0.004006
+       125    0.002138
+       126    0.001094
+       127    0.000523
+       128    0.000239
+       129    0.000101
+       130    0.000040
+       131    0.000016
+       132    0.000006
+       133    0.000002
+       134    0.000000
+       135    0.000000
+       136    0.000000

@@ -1,0 +1,4 @@
+vals ${1}.bond_vals.$s *:bond:*
+vals ${1}.angle_vals.$s *:angle:*
+vals ${1}.dihedral_vals.$s *:dihedral:*
+q

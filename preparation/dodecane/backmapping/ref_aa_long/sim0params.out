@@ -1,0 +1,14 @@
+thermostat=lv
+cg_cutoff=1.2
+skin=0.1
+conf=conf.gro
+table_groups=A,B
+trj_collect=1000
+temperature=298.0
+top=topol.top
+int_step=1000
+energy_collect=1000
+run=10000000
+dt=0.001
+thermostat_gamma=5.0
+lj_cutoff=1.4

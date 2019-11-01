@@ -1,0 +1,8 @@
+hist set scale bond
+hist bond.hist *:bond:*
+hist set scale angle
+hist angle.hist *:angle:*
+hist set scale no
+hist set periodic 1
+hist dihedral.hist *:dihedral:*
+q

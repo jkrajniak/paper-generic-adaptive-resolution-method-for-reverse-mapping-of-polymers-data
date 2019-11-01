@@ -1,0 +1,30 @@
+#!/bin/bash -l
+#PBS -l mem=32gb
+#PBS -l walltime=24:00:00
+#PBS -o Output.job
+#PBS -j oe
+#PBS -l nodes=1:ppn=20
+#PBS -M jakub.krajniak@cs.kuleuven.be
+#PBS -A lp_polymer_goa_project
+
+module purge
+
+cd $PBS_O_WORKDIR
+
+module load espressopp/adress-intel-devel
+module load bakery
+module load pyh5md
+module load h5py/intel-gpfs
+# Set up OpenMPI environment
+n_proc=$(cat $PBS_NODEFILE | wc -l)
+n_node=$(cat $PBS_NODEFILE | uniq | wc -l)
+
+rng="`shuf -i 12345-99999 -n1`${RNG2}"
+
+SIM_INDEX=$sim_index
+OUTPUT_PREFIX=sim${sim_index}_${rng}
+LOG="${OUTPUT_PREFIX}.log"
+
+date > ${LOG}
+mpirun -np 18 start_simulation.py @sim0params.out --rng_seed ${rng} --output_prefix ${OUTPUT_PREFIX} --coord init_coord${sim_index} &>> ${LOG}
+date >> ${OUTPUT_PREFIX}.log

@@ -1,0 +1,50 @@
+<cg>
+  <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <name>A-A</name>
+    <type1>A</type1>
+    <type2>A</type2>
+    <min>0.0</min>
+    <max>1.5</max>
+    <step>0.01</step>
+    <inverse>
+      <target>A-A.dist.tgt</target>
+      <min>0.35</min>
+      <max>1.5</max>
+      <step>0.02</step>
+    </inverse>
+  </non-bonded>
+  
+  <non-bonded>
+    <name>B-B</name>
+    <type1>B</type1>
+    <type2>B</type2>
+    <min>0.0</min>
+    <max>1.5</max>
+    <step>0.01</step>
+    <inverse>
+      <target>B-B.dist.tgt</target>
+      <min>0.35</min>
+      <max>1.5</max>
+      <step>0.03</step>
+    </inverse>
+  </non-bonded>
+  
+  <non-bonded>
+    <name>A-B</name>
+    <type1>A</type1>
+    <type2>B</type2>
+    <min>0.0</min>
+    <max>1.5</max>
+    <step>0.01</step>
+    <inverse>
+      <target>A-B.dist.tgt</target>
+      <min>0.35</min>
+      <max>1.5</max>
+      <step>0.02</step>
+    </inverse>
+  </non-bonded>
+  <inverse>
+    <kBT>3.51703773</kBT>
+  </inverse>
+</cg>

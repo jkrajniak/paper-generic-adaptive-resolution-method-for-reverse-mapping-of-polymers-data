@@ -1,0 +1,15 @@
+<topology base="hexane_mixture.gro">
+  <molecules>
+    <clear/>
+    <define name="HEX" first="1" nbeads="6" nmols="288" />
+  </molecules>
+  <!--<box xx="6.1" yy="3.1" zz="3.1" />-->
+  <beadtypes>
+    <mass name="C1" value="15.035" />
+    <mass name="C2" value="14.027" />
+    <mass name="C3" value="14.027" />
+    <mass name="C4" value="14.027" />
+    <mass name="C5" value="14.027" />
+    <mass name="C6" value="15.035" />
+  </beadtypes>
+</topology>

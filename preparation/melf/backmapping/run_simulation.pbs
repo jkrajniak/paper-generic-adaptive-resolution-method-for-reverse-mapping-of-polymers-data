@@ -1,0 +1,29 @@
+#!/bin/bash -l
+#PBS -l mem=32gb
+#PBS -l walltime=168:00:00
+#PBS -o Output.job
+#PBS -j oe
+#PBS -l nodes=1:ppn=20
+#PBS -M jakub.krajniak@cs.kuleuven.be
+#PBS -A lp_polymer_goa_project
+#PBS -N paralllel_test
+
+module purge
+
+cd $PBS_O_WORKDIR
+
+module load espressopp/adress_new
+module load bakery-github-dev
+# Set up OpenMPI environment
+n_proc=$(cat $PBS_NODEFILE | wc -l)
+n_node=$(cat $PBS_NODEFILE | uniq | wc -l)
+mpdboot -f $PBS_NODEFILE -n $n_node -r ssh -v
+
+rng="`shuf -i 12345-99999 -n1`"
+
+output_prefix=twoAlpha0
+logfile=${output_prefix}_run_${rng}.log
+
+date > $logfile
+mpirun -n 18 start_backmapping.py @params --rng_seed ${rng} --alpha 1e-06 --alpha2 0.0001 --output_prefix ${output_prefix} --two_phase True &>> $logfile
+date >> $logfile

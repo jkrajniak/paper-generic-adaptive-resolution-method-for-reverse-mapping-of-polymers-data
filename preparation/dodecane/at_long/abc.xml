@@ -1,0 +1,69 @@
+<topology>
+    <h5md_particle_group name="atoms" />
+    <box xx="5.75376" yy="5.75376" zz="5.75376" />
+    <molecules>
+        <molecule name="DOD" nmols="500" nbeads="12">
+            <bead name="C1" type="B" mass="15.035" q="0.0" />
+            <bead name="C2" type="B" mass="14.028" q="0.0" />
+            <bead name="C3" type="B" mass="14.028" q="0.0" />
+            <bead name="C4" type="B" mass="14.028" q="0.0" />
+            <bead name="C5" type="B" mass="14.028" q="0.0" />
+            <bead name="C6" type="B" mass="14.028" q="0.0" />
+            <bead name="C7" type="B" mass="14.028" q="0.0" />
+            <bead name="C8" type="B" mass="14.028" q="0.0" />
+            <bead name="C9" type="B" mass="14.028" q="0.0" />
+            <bead name="C10" type="B" mass="14.028" q="0.0" />
+            <bead name="C11" type="B" mass="14.028" q="0.0" />
+            <bead name="C12" type="B" mass="15.035" q="0.0" />
+        </molecule>
+    </molecules>
+    <bonded>
+       <!--
+        <bond>
+            <name>bond1</name>
+            <beads>
+                BUT:C1 BUT:C2
+                BUT:C2 BUT:C3
+                BUT:C3 BUT:C4
+                BUT:C4 BUT:C5
+                BUT:C5 BUT:C6
+                BUT:C6 BUT:C7
+                BUT:C7 BUT:C8
+                BUT:C8 BUT:C9
+                BUT:C9 BUT:C10
+                BUT:C10 BUT:C11
+                BUT:C11 BUT:C12
+            </beads>
+        </bond>
+        <angle>
+            <name>angle1</name>
+            <beads>
+                BUT:C1 BUT:C2 BUT:C3
+                BUT:C2 BUT:C3 BUT:C4
+                BUT:C3 BUT:C4 BUT:C5
+                BUT:C4 BUT:C5 BUT:C6
+                BUT:C5 BUT:C6 BUT:C7
+                BUT:C6 BUT:C7 BUT:C8
+                BUT:C7 BUT:C8 BUT:C9
+                BUT:C8 BUT:C9 BUT:C10
+                BUT:C9 BUT:C10 BUT:C11
+                BUT:C10 BUT:C11 BUT:C12
+            </beads>
+        </angle>
+        <dihedral>
+            <name>dihedral1</name>
+            <beads>
+                BUT:C1 BUT:C2 BUT:C3 BUT:C4
+                BUT:C2 BUT:C3 BUT:C4 BUT:C5
+                BUT:C3 BUT:C4 BUT:C5 BUT:C6
+                BUT:C4 BUT:C5 BUT:C6 BUT:C7
+                BUT:C5 BUT:C6 BUT:C7 BUT:C8
+                BUT:C6 BUT:C7 BUT:C8 BUT:C9
+                BUT:C7 BUT:C8 BUT:C9 BUT:C10
+                BUT:C8 BUT:C9 BUT:C10 BUT:C11
+                BUT:C9 BUT:C10 BUT:C11 BUT:C12
+            </beads>
+        </dihedral>
+        -->
+    </bonded>
+</topology>

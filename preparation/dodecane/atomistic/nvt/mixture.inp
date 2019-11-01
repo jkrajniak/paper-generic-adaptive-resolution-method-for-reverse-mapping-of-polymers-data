@@ -1,0 +1,9 @@
+tolerance 2.0
+filetype pdb
+
+output mixture.pdb
+
+structure dodecane_single.pdb
+  number 500
+  inside box 0.0 0.0 0.0 60.0 60.0 60.0
+end structure

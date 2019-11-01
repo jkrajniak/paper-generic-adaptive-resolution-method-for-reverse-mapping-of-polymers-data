@@ -1,0 +1,12 @@
+tab set T 423
+tab set scale bond
+tab set smooth_pot 1
+tab set n 101
+tab bond_ee.pot *:bond_ee:*
+tab bond.pot *:bond:*
+tab set scale angle
+tab angle.pot *:angle:*
+tab set scale no
+tab set periodic 1
+tab dihedral.pot *:dihedral:*
+q

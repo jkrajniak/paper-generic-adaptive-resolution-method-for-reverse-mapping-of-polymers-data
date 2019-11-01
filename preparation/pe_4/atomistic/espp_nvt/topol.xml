@@ -1,0 +1,110 @@
+<topology base="conf.gro">
+  <h5md_particle_group name="atoms" />
+  <molecules>
+    <clear/>
+    <define name="PE" first="1" nbeads="100" nmols="75" />
+  </molecules>
+  <!--<box xx="6.1" yy="3.1" zz="3.1" />-->
+  <beadtypes>
+    <mass name="C1" value="15.035" />
+   <mass name="C2" value="14.027" />$   
+   <mass name="C3" value="14.027" />$   
+   <mass name="C4" value="14.027" />$   
+   <mass name="C5" value="14.027" />$   
+   <mass name="C6" value="14.027" />$   
+   <mass name="C7" value="14.027" />$   
+   <mass name="C8" value="14.027" />$   
+   <mass name="C9" value="14.027" />$   
+   <mass name="C10" value="14.027" />$   
+   <mass name="C11" value="14.027" />$   
+   <mass name="C12" value="14.027" />$   
+   <mass name="C13" value="14.027" />$   
+   <mass name="C14" value="14.027" />$   
+   <mass name="C15" value="14.027" />$   
+   <mass name="C16" value="14.027" />$   
+   <mass name="C17" value="14.027" />$   
+   <mass name="C18" value="14.027" />$   
+   <mass name="C19" value="14.027" />$   
+   <mass name="C20" value="14.027" />$   
+   <mass name="C21" value="14.027" />$   
+   <mass name="C22" value="14.027" />$   
+   <mass name="C23" value="14.027" />$   
+   <mass name="C24" value="14.027" />$   
+   <mass name="C25" value="14.027" />$   
+   <mass name="C26" value="14.027" />$   
+   <mass name="C27" value="14.027" />$   
+   <mass name="C28" value="14.027" />$   
+   <mass name="C29" value="14.027" />$   
+   <mass name="C30" value="14.027" />$   
+   <mass name="C31" value="14.027" />$   
+   <mass name="C32" value="14.027" />$   
+   <mass name="C33" value="14.027" />$   
+   <mass name="C34" value="14.027" />$   
+   <mass name="C35" value="14.027" />$   
+   <mass name="C36" value="14.027" />$   
+   <mass name="C37" value="14.027" />$   
+   <mass name="C38" value="14.027" />$   
+   <mass name="C39" value="14.027" />$   
+   <mass name="C40" value="14.027" />$   
+   <mass name="C41" value="14.027" />$   
+   <mass name="C42" value="14.027" />$   
+   <mass name="C43" value="14.027" />$   
+   <mass name="C44" value="14.027" />$   
+   <mass name="C45" value="14.027" />$   
+   <mass name="C46" value="14.027" />$   
+   <mass name="C47" value="14.027" />$   
+   <mass name="C48" value="14.027" />$   
+   <mass name="C49" value="14.027" />$   
+   <mass name="C50" value="14.027" />$   
+   <mass name="C51" value="14.027" />$   
+   <mass name="C52" value="14.027" />$   
+   <mass name="C53" value="14.027" />$   
+   <mass name="C54" value="14.027" />$   
+   <mass name="C55" value="14.027" />$   
+   <mass name="C56" value="14.027" />$   
+   <mass name="C57" value="14.027" />$   
+   <mass name="C58" value="14.027" />$   
+   <mass name="C59" value="14.027" />$   
+   <mass name="C60" value="14.027" />$   
+   <mass name="C61" value="14.027" />$   
+   <mass name="C62" value="14.027" />$   
+   <mass name="C63" value="14.027" />$   
+   <mass name="C64" value="14.027" />$   
+   <mass name="C65" value="14.027" />$   
+   <mass name="C66" value="14.027" />$   
+   <mass name="C67" value="14.027" />$   
+   <mass name="C68" value="14.027" />$   
+   <mass name="C69" value="14.027" />$   
+   <mass name="C70" value="14.027" />$   
+   <mass name="C71" value="14.027" />$   
+   <mass name="C72" value="14.027" />$   
+   <mass name="C73" value="14.027" />$   
+   <mass name="C74" value="14.027" />$   
+   <mass name="C75" value="14.027" />$   
+   <mass name="C76" value="14.027" />$   
+   <mass name="C77" value="14.027" />$   
+   <mass name="C78" value="14.027" />$   
+   <mass name="C79" value="14.027" />$   
+   <mass name="C80" value="14.027" />$   
+   <mass name="C81" value="14.027" />$   
+   <mass name="C82" value="14.027" />$   
+   <mass name="C83" value="14.027" />$   
+   <mass name="C84" value="14.027" />$   
+   <mass name="C85" value="14.027" />$   
+   <mass name="C86" value="14.027" />$   
+   <mass name="C87" value="14.027" />$   
+   <mass name="C88" value="14.027" />$   
+   <mass name="C89" value="14.027" />$   
+   <mass name="C90" value="14.027" />$   
+   <mass name="C91" value="14.027" />$   
+   <mass name="C92" value="14.027" />$   
+   <mass name="C93" value="14.027" />$   
+   <mass name="C94" value="14.027" />$   
+   <mass name="C95" value="14.027" />$   
+   <mass name="C96" value="14.027" />$   
+   <mass name="C97" value="14.027" />$   
+   <mass name="C98" value="14.027" />$   
+   <mass name="C99" value="14.027" />$   
+   <mass name="C100" value="15.035" />
+  </beadtypes>
+</topology>
